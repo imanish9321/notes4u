@@ -1,0 +1,98 @@
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+/* Body Color */
+		body
+		{
+			background-color: white;
+		}	
+		ul
+		{
+			font-size: 18px;
+			font-family: Apple Chancery, cursive;
+			margin-left: 45%;
+			list-style-type: none;
+			position: fixed;		
+			text-align: center;
+			transition: 0.3s;
+			padding: 5px;
+			width: 100px;
+			text-decoration: none;
+		}
+    		@media only screen and (max-width: 600px)	/* Mobile-View */
+			{
+			ul
+				{				
+                    font-size: 24px;
+					margin-left: 35%;
+					margin-bottom: 10%;
+                    margin-right:35%;
+					height: 80%;
+				}
+			}
+
+		li
+		{
+			float: center;
+		}
+		li a
+		{
+			display: block;
+			color: black;
+			text-align: center;
+			padding: 10%;
+			text-decoration: none;
+		}
+		li a:hover
+		{
+			background-color: transparent;
+			width: 40%
+			margin-top: 5px;
+			border-top: 5px solid white;
+			border-left: 5px solid cyan;
+			border-right: 5px solid cyan;
+			border-bottom: 5px solid white;
+		}
+		ul:hover
+		{
+			color: #ff6d29;
+		}
+		h2
+		{
+			font-size: 18px;
+			font-family: Apple Chancery, cursive;
+			list-style-type: none;
+			background-color: #82e8dc;
+			position: -webkit-sticky; 	/* Sticky behaviour */
+			position: sticky;
+			top: 0;
+		}
+    		@media only screen and (max-width: 600px)	/* Mobile-View */
+			{
+			h2
+				{
+			        font-size: 24px;
+                    padding-top: 10px;
+					height: 10%;
+				}
+			}
+
+</style>
+</head>
+<body>
+	<h2><center>Notes
+    <br>    
+	Select semester of your choice</center></h2>
+<div>
+	<ul>
+		<li><a class="active" href="#Projects">Semester VIII</a></li>
+		<li><a href="#">Semester VII</a></li>
+		<li><a href="#">Semester VI</a></li>
+		<li><a href="#">Semester V</a></li>
+		<li><a href="#">Semester IV</a></li>
+		<li><a href="#">Semester III</a></li>
+	</ul>
+</div>	
+</body>
+</html>
